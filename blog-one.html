@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Blog I</title>
+</head>
+
+<body>
+		<header>
+
+			<table>
+			  <tr>
+			    <td>
+			     	 <img src="profile pic.png" alt="CYRIL QUILIT" width="100" height="100">
+			    </td>
+			    <td>
+			      	<h1>CYRIL QUILIT</h1>
+			    </td>
+			  </tr>
+			</table>
+
+
+				<nav>
+
+					<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="blog-one.html">BLOG 1</a></li>
+					<li><a href="blog-two.html">BLOG 2</a></li>
+					<li><a href="blog-three.html">BLOG 3</a></li>
+					</ul>
+
+				</nav>
+
+		</header>
+
+	<article>
+
+	<header>
+
+			<table>
+			  <tr>
+			    <td>
+			      <img src="css.logo.png" alt="css logo" width="100" height="100">
+			    </td>
+			    <td>
+			      <h2>CSS (Cascading Style Sheets)</h2>
+			    </td>
+			  </tr>
+			</table>
+
+		
+
+		<p>Posted by <strong>Cyril Quilit</strong></p>
+
+	</header>
+
+
+
+			<p>
+				<strong><a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS">CSS</a> (Cascading Style Sheets)</strong> allows you to create great-looking web pages, but how does it work under the hood? This article explains what CSS is, what the basic syntax looks like, and how your browser applies CSS to HTML to style it.
+			</p>
+
+
+
+			<p>
+				If <b>HTML</b> is the bones and structure of a website, <b>CSS</b> is the skin, clothing, and styling. It is the language used to control the presentation, layout, and visual appearance of a web page.
+			</p>
+
+
+
+			<h3>What is CSS for?</h3>
+
+
+
+			<p>
+				Using <b>CSS</b>, you can control exactly how <b>HTML</b> elements look in the browser, presenting your documents to your users with whatever design and layout you like.
+			</p>
+
+
+
+			<ul>
+				<li>
+					  A <b>document</b> is usually a text file structured using a markup language, most commonly <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML" >HTML</a> (<i>these are termed HTML documents</i>). You may also come across documents written in other markup languages such as <a href="https://developer.mozilla.org/en-US/docs/Glossary/SVG">SVG</a> or <a href="https://developer.mozilla.org/en-US/docs/Glossary/XML">XML</a>. An HTML document contains a web page's content and specifies its structure.
+				</li>
+
+				<li>
+					  <b>Presenting</b> a document to a user means converting it into a form usable by your audience. <a href="https://developer.mozilla.org/en-US/docs/Glossary/Browser">Browsers</a> like <a href="https://developer.mozilla.org/en-US/docs/Glossary/Mozilla_Firefox">Firefox</a>, <a href="https://developer.mozilla.org/en-US/docs/Glossary/Google_Chrome">Chrome
+					  </a>, <a href="https://developer.mozilla.org/en-US/docs/Glossary/Google_Chrome">Safari</a>, and <a href="https://developer.mozilla.org/en-US/docs/Glossary/Microsoft_Edge">Edge</a> are designed to present documents visually, for example, on a computer screen, projector, mobile device, or printer. In a web context, this is generally referred to as rendering; we provided a simplified description of the process by which a web page is rendered in <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_browsers_load_websites">How browsers load websites</a>.
+			   </li>	
+			</ul>
+
+
+
+			
+			<a href="https://developer.mozilla.org/en-US/docs/Web/CSS#guides"><h3>Guides</h3></a>
+
+
+			<p>
+				<b>CSS</b> guides are organized by modules and are there to help you learn what you can achieve using.
+			</p>
+
+			<p>
+				<b>CSS</b>. Browse the complete list at <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides">CSS guides</a>, which includes topics such as:
+			</p>
+
+			
+
+			<ol>
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Syntax/Introduction">CSS syntax</a> including declarations and rulesets.
+				</li>
+
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity">Specificity</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">inheritance</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction">cascade</a>
+				</li>
+
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction">Nesting</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scoping">scoping</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Shadow_parts">shadow parts</a>
+				</li>
+
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries">Media</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment">container</a> queries
+				</li>
+
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Values_and_units/Numeric_data_types">Numeric</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Values_and_units/Textual_data_types">textual</a> data types
+				</li>
+
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model/Introduction">Box model</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing">margin collapse</a>
+				</li>
+
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Containing_block">Containing block</a>
+				</li>
+
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context">Stacking</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context">block-formatting</a> contexts
+				</li>
+
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing">Property value processing</a>
+				</li>
+
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties">Shorthand properties</a>
+				</li>
+
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout">Flexible box</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Multicol_layout">multi-column</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout">grid</a> layouts
+				</li>
+
+				<li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using">Animations</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions/Using">transitions</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transforms/Using">transforms</a>
+				</li>
+			</ol>
+
+
+
+				<p>
+					You can learn more at <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS"
+					target="_blank">MDN Web Docs</a>
+				</p>
+
+
+
+			<h3>Why should you learn CSS?</h3>
+
+
+
+			<p>
+			Learning CSS is important for several reasons:
+			</p>
+
+
+
+			<ul>
+				<li>Make Websites Look Professional</li>
+				<li>Save Time and Effort (Efficiency)</li>
+				<li>Master Responsive Web Design</li>
+				<li>Create Smooth Animations without Javascript</li>
+				<li>Open Up Career Opportunities</li>
+			</ul>
+
+
+
+		
+
+
+			<table>
+			  <tr>
+			    <td>
+			      <a href="https://cdn.mobygames.com/dd718d82-ab6a-11ed-9ae2-02420a0001a0.webp" target="_blank"><img src="pine.jpg" alt="pine iamge" width="100" height="100"></a>
+			    </td>
+			    <td>
+			      <a href="https://www.oreilly.com/pub/au/2362">(<i>Chris Pine</i>)</a> <b>Programming</b> isn't about what you know; it's about what you can figure out.
+			    </td>
+			  </tr>
+			</table>
+
+
+		<h3>Rate My Work</h3>
+
+
+
+		<form>
+		<input type="number" name="rate" placeholder="Rate 1-10"  max="10" pattern="[1-10]" required>
+		<input type="submit" value="Done">
+		</form>
+
+
+
+	</article>
+
+
+
+		<aside>
+				<h4>Related posts</h4>
+
+
+				<ul>
+
+					<li>
+					<a href="file:///C:/Users/SPPS/Desktop/BLog/index.html"><h4>What is HTML?</h4></a>
+					<p>By Cyril Quilit</p>
+					</li>
+
+					<li>
+					<a href="file:///C:/Users/SPPS/Desktop/BLog/blog-two.html"><h4>What is Javascript?</h4></a>
+					<p>By Cyril Quilit</p>
+					</li>
+
+					<li>
+					<a href="file:///C:/Users/SPPS/Desktop/BLog/blog-three.html"><h4>What is a Web Framework?</h4></a>
+					<p>By Cyril Quilit</p>
+					</li>
+
+				</ul>
+		</aside>
+
+
+
+		<footer>Copyright &copy; 2026 by Cyril Quilit All Rights Reserved.</footer>
+
+</body>
+
+</html>
